@@ -195,7 +195,7 @@ public:
 
 // Function to calculate discounted price of any course
 double calculateDiscountedPrice(const OnlineCourse& course) {
-    return course.price * (1 - course.discountRate / 100.0); // Calculate and return discounted price
+    //return course.price * (1 - course.discountRate / 100.0); // Calculate and return discounted price
 }
 
 int main() {
