@@ -15,9 +15,7 @@ protected:
     int ratingCount;
 
 public:
-    OnlineCourse(string name, string instr, int capacity, double pr, string lvl, double discRate, string prereq, int dur)
-        : courseName(name), instructor(instr), totalCapacity(capacity), price(pr), level(lvl), discountRate(discRate),
-        prerequisites(prereq), duration(dur), enrolledStudents(0), totalRating(0), ratingCount(0) {}
+    OnlineCourse(string name, string instr, int capacity, double pr, string lvl, double discRate, string prereq, int dur) : courseName(name), instructor(instr), totalCapacity(capacity), price(pr), level(lvl), discountRate(discRate), prerequisites(prereq), duration(dur), enrolledStudents(0), totalRating(0), ratingCount(0) {}
 
     virtual void displayInfo() = 0;
     virtual bool addStudent() = 0;
@@ -59,10 +57,7 @@ private:
     string programmingLanguage, devEnvironment;
 
 public:
-    SoftwareCourses(string name, string instr, int capacity, double pr, string lvl, double discRate,
-        string prereq, int dur, string lang, string devEnv)
-        : OnlineCourse(name, instr, capacity, pr, lvl, discRate, prereq, dur),
-        programmingLanguage(lang), devEnvironment(devEnv) {}
+    SoftwareCourses(string name, string instr, int capacity, double pr, string lvl, double discRate, string prereq, int dur, string lang, string devEnv) : OnlineCourse(name, instr, capacity, pr, lvl, discRate, prereq, dur), programmingLanguage(lang), devEnvironment(devEnv) {}
 
     void displayInfo() override {
         cout << "Software Course: " << courseName << endl;
@@ -140,6 +135,14 @@ private:
 
 public:
     void addToCart(OnlineCourse* course) {
+        // Sepette aynı kurs olup olmadığını kontrol et
+        for (OnlineCourse* c : cart) {
+            if (c->getCourseName() == course->getCourseName()) {
+                cout << "This course is already in your cart." << endl;
+                return;
+            }
+        }
+        // Kapasiteyi kontrol et
         if (course->checkCapacity()) {
             cart.push_back(course);
             cout << "Course added to cart." << endl;
@@ -238,9 +241,9 @@ int main() {
     cout << "**********************************************" << endl << endl;
 
     map<string, string> studentDatabase = {
-        {"2200005590", "password123"},
-        {"2200005591", "securepass"},
-        {"2200005592", "mypassword"}
+        {"2200005590", "onur"},
+        {"2200005798", "esma"},
+        {"2300008096", "melisa"}
     };
 
     SoftwareCourses cppCourse("Advanced C++ Programming", "Alice Johnson", 20, 149.99, "Intermediate", 10.0, "Basic C++ Knowledge", 40, "C++", "Visual Studio");
