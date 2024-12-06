@@ -112,14 +112,6 @@ The project consists of the following files:
 
 3. Compile and run the `main.cpp` file to start interacting with the system.
 
-## Future Improvements
-
-Here are some potential improvements for future versions of the system:
-
-- **Database Integration**: Store student and course data in a database instead of hardcoding it.
-- **Graphical User Interface (GUI)**: Implement a GUI to enhance user interaction.
-- **Enhanced Authentication**: Implement password encryption and multi-factor authentication for better security.
-- **Additional Course Features**: Add features like video lectures, quizzes, and certification generation.
 
 ## License
 
