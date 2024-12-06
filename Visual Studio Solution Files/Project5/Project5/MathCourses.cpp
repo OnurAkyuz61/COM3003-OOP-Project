@@ -1,12 +1,12 @@
-#include "MathCourses.h"
+﻿#include "MathCourses.h"
 
-MathCourses::MathCourses(string name, string instr, int capacity, double pr, string lvl, double discRate, string prereq, int dur, string area) : OnlineCourse(name, instr, capacity, pr, lvl, discRate, prereq, dur), focusArea(area) {}
+MathCourses::MathCourses(string courseName, string instructor, int totalCapacity, double price, string level, double discountRate, string prerequisites, int duration, string focusArea) : OnlineCourse(courseName, instructor, totalCapacity, price, level, discountRate, prerequisites, duration), focusArea(focusArea) {}
 
 void MathCourses::displayInfo() {
     cout << "Math Course: " << courseName << endl;
     cout << "Instructor: " << instructor << endl;
     cout << "Level: " << level << endl;
-    cout << "Price: $" << fixed << setprecision(2) << price << endl;
+    cout << "Price: ₺" << fixed << setprecision(2) << price << endl;
     cout << "Discount Rate: " << discountRate << "%" << endl;
     cout << "Prerequisites: " << prerequisites << endl;
     cout << "Duration: " << duration << " hours" << endl;

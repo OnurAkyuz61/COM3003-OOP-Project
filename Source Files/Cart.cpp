@@ -1,4 +1,4 @@
-#include "Cart.h"
+﻿#include "Cart.h"
 
 void Cart::addToCart(OnlineCourse* course) {
     cart.push_back(course);
@@ -13,7 +13,7 @@ void Cart::displayCart() {
 
     cout << "Courses in your cart:" << endl;
     for (size_t i = 0; i < cart.size(); ++i) {
-        cout << i + 1 << ". " << cart[i]->getCourseName() << " - $" << fixed << setprecision(2) << cart[i]->getPrice() << endl;
+        cout << i + 1 << ". " << cart[i]->getCourseName() << " - ₺" << fixed << setprecision(2) << cart[i]->getPrice() << endl;
     }
 }
 
@@ -25,7 +25,7 @@ void Cart::checkout() {
 
     cout << "Checking out the following courses:" << endl;
     for (OnlineCourse* course : cart) {
-        cout << "- " << course->getCourseName() << " ($" << fixed << setprecision(2) << course->getPrice() << ")" << endl;
+        cout << "- " << course->getCourseName() << " (₺" << fixed << setprecision(2) << course->getPrice() << ")" << endl;
         purchasedCourses.push_back(course);
     }
     cart.clear();
@@ -41,7 +41,7 @@ void Cart::displayPurchasedCourses() {
     cout << "Your purchased courses:" << endl;
     for (size_t i = 0; i < purchasedCourses.size(); ++i) {
         cout << i + 1 << ". " << purchasedCourses[i]->getCourseName() << endl;
-        cout << "   Price: $" << fixed << setprecision(2) << purchasedCourses[i]->getPrice() << endl;
+        cout << "   Price: ₺" << fixed << setprecision(2) << purchasedCourses[i]->getPrice() << endl;
         cout << "   Average Rating: " << fixed << setprecision(2) << purchasedCourses[i]->getAverageRating() << " / 5" << endl;
     }
 }

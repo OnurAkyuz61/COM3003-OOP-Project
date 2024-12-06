@@ -1,5 +1,3 @@
-#pragma once
-
 #ifndef ONLINECOURSE_H
 #define ONLINECOURSE_H
 

@@ -8,7 +8,7 @@ private:
     string programmingLanguage, devEnvironment;
 
 public:
-    SoftwareCourses(string name, string instr, int capacity, double pr, string lvl, double discRate, string prereq, int dur, string lang, string devEnv);
+    SoftwareCourses(string courseName, string instructor, int totalCapacity, double price, string level, double discountRate, string prerequisites, int duration, string programmingLanguage, string devEnvironment);
     void displayInfo() override;
     bool addStudent() override;
     bool checkCapacity() override;

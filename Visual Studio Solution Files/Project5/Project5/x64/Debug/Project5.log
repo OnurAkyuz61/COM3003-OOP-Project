@@ -1,2 +1,15 @@
 ﻿  Cart.cpp
+C:\Users\akyon\source\repos\Project5\Project5\Cart.cpp(16,62): warning C4566: character represented by universal-character-name '\u20BA' cannot be represented in the current code page (1254)
+C:\Users\akyon\source\repos\Project5\Project5\Cart.cpp(28,52): warning C4566: character represented by universal-character-name '\u20BA' cannot be represented in the current code page (1254)
+C:\Users\akyon\source\repos\Project5\Project5\Cart.cpp(44,17): warning C4566: character represented by universal-character-name '\u20BA' cannot be represented in the current code page (1254)
+  LanguageCourses.cpp
+C:\Users\akyon\source\repos\Project5\Project5\LanguageCourses.cpp(9,13): warning C4566: character represented by universal-character-name '\u20BA' cannot be represented in the current code page (1254)
+  main.cpp
+  MathCourses.cpp
+C:\Users\akyon\source\repos\Project5\Project5\MathCourses.cpp(9,13): warning C4566: character represented by universal-character-name '\u20BA' cannot be represented in the current code page (1254)
+  OnlineCourse.cpp
+  ProfessionalDevelopmentCourses.cpp
+C:\Users\akyon\source\repos\Project5\Project5\ProfessionalDevelopmentCourses.cpp(9,13): warning C4566: character represented by universal-character-name '\u20BA' cannot be represented in the current code page (1254)
+  SoftwareCourses.cpp
+  Generating Code...
   Project5.vcxproj -> C:\Users\akyon\source\repos\Project5\x64\Debug\Project5.exe
