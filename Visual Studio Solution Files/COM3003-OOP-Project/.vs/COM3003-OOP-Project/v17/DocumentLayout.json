@@ -1,0 +1,241 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\akyon\\source\\repos\\COM3003-OOP-Project\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BEEFACEB-4F23-487E-8C6B-B5FC0399ED9A}|COM3003-OOP-Project\\COM3003-OOP-Project.vcxproj|C:\\Users\\akyon\\source\\repos\\COM3003-OOP-Project\\COM3003-OOP-Project\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BEEFACEB-4F23-487E-8C6B-B5FC0399ED9A}|COM3003-OOP-Project\\COM3003-OOP-Project.vcxproj|solutionrelative:COM3003-OOP-Project\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEEFACEB-4F23-487E-8C6B-B5FC0399ED9A}|COM3003-OOP-Project\\COM3003-OOP-Project.vcxproj|C:\\Users\\akyon\\source\\repos\\COM3003-OOP-Project\\COM3003-OOP-Project\\SoftwareCourses.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BEEFACEB-4F23-487E-8C6B-B5FC0399ED9A}|COM3003-OOP-Project\\COM3003-OOP-Project.vcxproj|solutionrelative:COM3003-OOP-Project\\SoftwareCourses.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEEFACEB-4F23-487E-8C6B-B5FC0399ED9A}|COM3003-OOP-Project\\COM3003-OOP-Project.vcxproj|C:\\Users\\akyon\\source\\repos\\COM3003-OOP-Project\\COM3003-OOP-Project\\SoftwareCourses.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BEEFACEB-4F23-487E-8C6B-B5FC0399ED9A}|COM3003-OOP-Project\\COM3003-OOP-Project.vcxproj|solutionrelative:COM3003-OOP-Project\\SoftwareCourses.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEEFACEB-4F23-487E-8C6B-B5FC0399ED9A}|COM3003-OOP-Project\\COM3003-OOP-Project.vcxproj|C:\\Users\\akyon\\source\\repos\\COM3003-OOP-Project\\COM3003-OOP-Project\\ProfessionalDevelopmentCourses.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BEEFACEB-4F23-487E-8C6B-B5FC0399ED9A}|COM3003-OOP-Project\\COM3003-OOP-Project.vcxproj|solutionrelative:COM3003-OOP-Project\\ProfessionalDevelopmentCourses.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEEFACEB-4F23-487E-8C6B-B5FC0399ED9A}|COM3003-OOP-Project\\COM3003-OOP-Project.vcxproj|C:\\Users\\akyon\\source\\repos\\COM3003-OOP-Project\\COM3003-OOP-Project\\ProfessionalDevelopmentCourses.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BEEFACEB-4F23-487E-8C6B-B5FC0399ED9A}|COM3003-OOP-Project\\COM3003-OOP-Project.vcxproj|solutionrelative:COM3003-OOP-Project\\ProfessionalDevelopmentCourses.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEEFACEB-4F23-487E-8C6B-B5FC0399ED9A}|COM3003-OOP-Project\\COM3003-OOP-Project.vcxproj|C:\\Users\\akyon\\source\\repos\\COM3003-OOP-Project\\COM3003-OOP-Project\\OnlineCourse.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BEEFACEB-4F23-487E-8C6B-B5FC0399ED9A}|COM3003-OOP-Project\\COM3003-OOP-Project.vcxproj|solutionrelative:COM3003-OOP-Project\\OnlineCourse.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEEFACEB-4F23-487E-8C6B-B5FC0399ED9A}|COM3003-OOP-Project\\COM3003-OOP-Project.vcxproj|C:\\Users\\akyon\\source\\repos\\COM3003-OOP-Project\\COM3003-OOP-Project\\OnlineCourse.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BEEFACEB-4F23-487E-8C6B-B5FC0399ED9A}|COM3003-OOP-Project\\COM3003-OOP-Project.vcxproj|solutionrelative:COM3003-OOP-Project\\OnlineCourse.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEEFACEB-4F23-487E-8C6B-B5FC0399ED9A}|COM3003-OOP-Project\\COM3003-OOP-Project.vcxproj|C:\\Users\\akyon\\source\\repos\\COM3003-OOP-Project\\COM3003-OOP-Project\\MathCourses.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BEEFACEB-4F23-487E-8C6B-B5FC0399ED9A}|COM3003-OOP-Project\\COM3003-OOP-Project.vcxproj|solutionrelative:COM3003-OOP-Project\\MathCourses.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEEFACEB-4F23-487E-8C6B-B5FC0399ED9A}|COM3003-OOP-Project\\COM3003-OOP-Project.vcxproj|C:\\Users\\akyon\\source\\repos\\COM3003-OOP-Project\\COM3003-OOP-Project\\MathCourses.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BEEFACEB-4F23-487E-8C6B-B5FC0399ED9A}|COM3003-OOP-Project\\COM3003-OOP-Project.vcxproj|solutionrelative:COM3003-OOP-Project\\MathCourses.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEEFACEB-4F23-487E-8C6B-B5FC0399ED9A}|COM3003-OOP-Project\\COM3003-OOP-Project.vcxproj|C:\\Users\\akyon\\source\\repos\\COM3003-OOP-Project\\COM3003-OOP-Project\\LanguageCourses.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BEEFACEB-4F23-487E-8C6B-B5FC0399ED9A}|COM3003-OOP-Project\\COM3003-OOP-Project.vcxproj|solutionrelative:COM3003-OOP-Project\\LanguageCourses.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEEFACEB-4F23-487E-8C6B-B5FC0399ED9A}|COM3003-OOP-Project\\COM3003-OOP-Project.vcxproj|C:\\Users\\akyon\\source\\repos\\COM3003-OOP-Project\\COM3003-OOP-Project\\LanguageCourses.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BEEFACEB-4F23-487E-8C6B-B5FC0399ED9A}|COM3003-OOP-Project\\COM3003-OOP-Project.vcxproj|solutionrelative:COM3003-OOP-Project\\LanguageCourses.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEEFACEB-4F23-487E-8C6B-B5FC0399ED9A}|COM3003-OOP-Project\\COM3003-OOP-Project.vcxproj|C:\\Users\\akyon\\source\\repos\\COM3003-OOP-Project\\COM3003-OOP-Project\\Cart.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BEEFACEB-4F23-487E-8C6B-B5FC0399ED9A}|COM3003-OOP-Project\\COM3003-OOP-Project.vcxproj|solutionrelative:COM3003-OOP-Project\\Cart.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEEFACEB-4F23-487E-8C6B-B5FC0399ED9A}|COM3003-OOP-Project\\COM3003-OOP-Project.vcxproj|C:\\Users\\akyon\\source\\repos\\COM3003-OOP-Project\\COM3003-OOP-Project\\Cart.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BEEFACEB-4F23-487E-8C6B-B5FC0399ED9A}|COM3003-OOP-Project\\COM3003-OOP-Project.vcxproj|solutionrelative:COM3003-OOP-Project\\Cart.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Main.cpp",
+              "DocumentMoniker": "C:\\Users\\akyon\\source\\repos\\COM3003-OOP-Project\\COM3003-OOP-Project\\Main.cpp",
+              "RelativeDocumentMoniker": "COM3003-OOP-Project\\Main.cpp",
+              "ToolTip": "C:\\Users\\akyon\\source\\repos\\COM3003-OOP-Project\\COM3003-OOP-Project\\Main.cpp",
+              "RelativeToolTip": "COM3003-OOP-Project\\Main.cpp",
+              "ViewState": "AQIAAE8AAAAAAAAAAAAwwFMAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-07T17:20:35.362Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SoftwareCourses.h",
+              "DocumentMoniker": "C:\\Users\\akyon\\source\\repos\\COM3003-OOP-Project\\COM3003-OOP-Project\\SoftwareCourses.h",
+              "RelativeDocumentMoniker": "COM3003-OOP-Project\\SoftwareCourses.h",
+              "ToolTip": "C:\\Users\\akyon\\source\\repos\\COM3003-OOP-Project\\COM3003-OOP-Project\\SoftwareCourses.h",
+              "RelativeToolTip": "COM3003-OOP-Project\\SoftwareCourses.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-07T17:20:11.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SoftwareCourses.cpp",
+              "DocumentMoniker": "C:\\Users\\akyon\\source\\repos\\COM3003-OOP-Project\\COM3003-OOP-Project\\SoftwareCourses.cpp",
+              "RelativeDocumentMoniker": "COM3003-OOP-Project\\SoftwareCourses.cpp",
+              "ToolTip": "C:\\Users\\akyon\\source\\repos\\COM3003-OOP-Project\\COM3003-OOP-Project\\SoftwareCourses.cpp",
+              "RelativeToolTip": "COM3003-OOP-Project\\SoftwareCourses.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-07T17:19:52.598Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProfessionalDevelopmentCourses.h",
+              "DocumentMoniker": "C:\\Users\\akyon\\source\\repos\\COM3003-OOP-Project\\COM3003-OOP-Project\\ProfessionalDevelopmentCourses.h",
+              "RelativeDocumentMoniker": "COM3003-OOP-Project\\ProfessionalDevelopmentCourses.h",
+              "ToolTip": "C:\\Users\\akyon\\source\\repos\\COM3003-OOP-Project\\COM3003-OOP-Project\\ProfessionalDevelopmentCourses.h",
+              "RelativeToolTip": "COM3003-OOP-Project\\ProfessionalDevelopmentCourses.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-07T17:19:34.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProfessionalDevelopmentCourses.cpp",
+              "DocumentMoniker": "C:\\Users\\akyon\\source\\repos\\COM3003-OOP-Project\\COM3003-OOP-Project\\ProfessionalDevelopmentCourses.cpp",
+              "RelativeDocumentMoniker": "COM3003-OOP-Project\\ProfessionalDevelopmentCourses.cpp",
+              "ToolTip": "C:\\Users\\akyon\\source\\repos\\COM3003-OOP-Project\\COM3003-OOP-Project\\ProfessionalDevelopmentCourses.cpp",
+              "RelativeToolTip": "COM3003-OOP-Project\\ProfessionalDevelopmentCourses.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-07T17:19:05.707Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "OnlineCourse.h",
+              "DocumentMoniker": "C:\\Users\\akyon\\source\\repos\\COM3003-OOP-Project\\COM3003-OOP-Project\\OnlineCourse.h",
+              "RelativeDocumentMoniker": "COM3003-OOP-Project\\OnlineCourse.h",
+              "ToolTip": "C:\\Users\\akyon\\source\\repos\\COM3003-OOP-Project\\COM3003-OOP-Project\\OnlineCourse.h",
+              "RelativeToolTip": "COM3003-OOP-Project\\OnlineCourse.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-07T17:18:35.456Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "OnlineCourse.cpp",
+              "DocumentMoniker": "C:\\Users\\akyon\\source\\repos\\COM3003-OOP-Project\\COM3003-OOP-Project\\OnlineCourse.cpp",
+              "RelativeDocumentMoniker": "COM3003-OOP-Project\\OnlineCourse.cpp",
+              "ToolTip": "C:\\Users\\akyon\\source\\repos\\COM3003-OOP-Project\\COM3003-OOP-Project\\OnlineCourse.cpp",
+              "RelativeToolTip": "COM3003-OOP-Project\\OnlineCourse.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-07T17:18:14.664Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MathCourses.h",
+              "DocumentMoniker": "C:\\Users\\akyon\\source\\repos\\COM3003-OOP-Project\\COM3003-OOP-Project\\MathCourses.h",
+              "RelativeDocumentMoniker": "COM3003-OOP-Project\\MathCourses.h",
+              "ToolTip": "C:\\Users\\akyon\\source\\repos\\COM3003-OOP-Project\\COM3003-OOP-Project\\MathCourses.h",
+              "RelativeToolTip": "COM3003-OOP-Project\\MathCourses.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-07T17:17:56.167Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MathCourses.cpp",
+              "DocumentMoniker": "C:\\Users\\akyon\\source\\repos\\COM3003-OOP-Project\\COM3003-OOP-Project\\MathCourses.cpp",
+              "RelativeDocumentMoniker": "COM3003-OOP-Project\\MathCourses.cpp",
+              "ToolTip": "C:\\Users\\akyon\\source\\repos\\COM3003-OOP-Project\\COM3003-OOP-Project\\MathCourses.cpp",
+              "RelativeToolTip": "COM3003-OOP-Project\\MathCourses.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-07T17:16:57.143Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "LanguageCourses.h",
+              "DocumentMoniker": "C:\\Users\\akyon\\source\\repos\\COM3003-OOP-Project\\COM3003-OOP-Project\\LanguageCourses.h",
+              "RelativeDocumentMoniker": "COM3003-OOP-Project\\LanguageCourses.h",
+              "ToolTip": "C:\\Users\\akyon\\source\\repos\\COM3003-OOP-Project\\COM3003-OOP-Project\\LanguageCourses.h",
+              "RelativeToolTip": "COM3003-OOP-Project\\LanguageCourses.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-07T17:16:34.456Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "LanguageCourses.cpp",
+              "DocumentMoniker": "C:\\Users\\akyon\\source\\repos\\COM3003-OOP-Project\\COM3003-OOP-Project\\LanguageCourses.cpp",
+              "RelativeDocumentMoniker": "COM3003-OOP-Project\\LanguageCourses.cpp",
+              "ToolTip": "C:\\Users\\akyon\\source\\repos\\COM3003-OOP-Project\\COM3003-OOP-Project\\LanguageCourses.cpp",
+              "RelativeToolTip": "COM3003-OOP-Project\\LanguageCourses.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-07T17:16:16.967Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Cart.h",
+              "DocumentMoniker": "C:\\Users\\akyon\\source\\repos\\COM3003-OOP-Project\\COM3003-OOP-Project\\Cart.h",
+              "RelativeDocumentMoniker": "COM3003-OOP-Project\\Cart.h",
+              "ToolTip": "C:\\Users\\akyon\\source\\repos\\COM3003-OOP-Project\\COM3003-OOP-Project\\Cart.h",
+              "RelativeToolTip": "COM3003-OOP-Project\\Cart.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-07T17:15:52.369Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Cart.cpp",
+              "DocumentMoniker": "C:\\Users\\akyon\\source\\repos\\COM3003-OOP-Project\\COM3003-OOP-Project\\Cart.cpp",
+              "RelativeDocumentMoniker": "COM3003-OOP-Project\\Cart.cpp",
+              "ToolTip": "C:\\Users\\akyon\\source\\repos\\COM3003-OOP-Project\\COM3003-OOP-Project\\Cart.cpp",
+              "RelativeToolTip": "COM3003-OOP-Project\\Cart.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADAAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-07T17:15:30.903Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
