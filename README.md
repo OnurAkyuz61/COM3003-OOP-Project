@@ -80,7 +80,7 @@ The UML Class Diagram below shows how the classes are related:
 - **Aggregation**: The `Cart` class aggregates `OnlineCourse` objects.
 - **Composition**: The `Student` class holds references to `OnlineCourse` objects representing the enrolled courses.
 
-![UML class (1)-1](https://github.com/user-attachments/assets/14dff50e-fef7-4edc-8c9c-8797b95fdf7a)
+![Class Diagram-1](https://github.com/user-attachments/assets/b772df8e-34e6-4a23-8799-5608aa9942ef)
 
 
 ## Project Structure
