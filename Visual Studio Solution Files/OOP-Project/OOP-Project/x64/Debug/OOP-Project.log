@@ -1,2 +1,19 @@
 ﻿  Cart.cpp
-  OOP-Project.vcxproj -> C:\Users\akyon\source\repos\OOP-Project\x64\Debug\OOP-Project.exe
+C:\Users\akyon\source\repos\OOP-Project\OOP-Project\Cart.cpp(33,15): error C2660: 'OnlineCourse::addStudent': function does not take 1 arguments
+  C:\Users\akyon\source\repos\OOP-Project\OOP-Project\OnlineCourse.h(18,18):
+  see declaration of 'OnlineCourse::addStudent'
+  C:\Users\akyon\source\repos\OOP-Project\OOP-Project\Cart.cpp(33,15):
+  while trying to match the argument list '(std::string)'
+  
+  main.cpp
+C:\Users\akyon\source\repos\OOP-Project\OOP-Project\main.cpp(49,24): error C2664: 'bool login(const std::map<std::string,std::string,std::less<std::string>,std::allocator<std::pair<const std::string,std::string>>> &)': cannot convert argument 1 from 'std::string' to 'const std::map<std::string,std::string,std::less<std::string>,std::allocator<std::pair<const std::string,std::string>>> &'
+  C:\Users\akyon\source\repos\OOP-Project\OOP-Project\main.cpp(49,30):
+  Reason: cannot convert from 'std::string' to 'const std::map<std::string,std::string,std::less<std::string>,std::allocator<std::pair<const std::string,std::string>>>'
+  C:\Users\akyon\source\repos\OOP-Project\OOP-Project\main.cpp(49,30):
+  No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+  C:\Users\akyon\source\repos\OOP-Project\OOP-Project\main.cpp(10,6):
+  see declaration of 'login'
+  C:\Users\akyon\source\repos\OOP-Project\OOP-Project\main.cpp(49,24):
+  while trying to match the argument list '(std::string)'
+  
+  Generating Code...
