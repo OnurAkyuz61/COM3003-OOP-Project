@@ -55,9 +55,10 @@ int main() {
             cout << "2. Add Course to Cart" << endl;
             cout << "3. View Cart" << endl;
             cout << "4. Checkout" << endl;
-            cout << "5. View Purchased Courses and Rate" << endl;
-            cout << "6. Logout" << endl;
-            cout << "7. Exit" << endl;
+            cout << "5. View Purchased Courses" << endl;
+            cout << "6. Rate Purchased Courses" << endl;
+            cout << "7. Logout" << endl;
+            cout << "8. Exit" << endl;
             cout << "Enter your choice: ";
             int choice;
             cin >> choice;
@@ -99,11 +100,15 @@ int main() {
                 break;
 
             case 6:
+                cart.rateCourse();
+                break;
+
+            case 7:
                 loggedIn = false;
                 cout << "Logged out successfully. Returning to login screen..." << endl;
                 break;
 
-            case 7:
+            case 8:
                 cout << "Exiting program. Thank you for using the Online Course Management System!" << endl;
                 return 0;
 

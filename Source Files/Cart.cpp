@@ -36,14 +36,21 @@ void Cart::checkout() {
     cout << "Enter CVV: ";
     cin >> cvv;
 
-    cout << "Payment successfully. Thank you for your purchase! (simulated)" << endl;
+    cout << "Payment successful. Thank you for your purchase! (simulated)" << endl;
 
     for (OnlineCourse* course : cart) {
-        purchasedCourses.push_back(course);
+        if (course->addStudent()) {
+            purchasedCourses.push_back(course);
+        }
+        else {
+            cout << "Failed to enroll in " << course->getCourseName() << ". Course is full." << endl;
+        }
     }
 
     cart.clear();
 }
+
+
 
 void Cart::displayPurchasedCourses() {
     if (purchasedCourses.empty()) {
