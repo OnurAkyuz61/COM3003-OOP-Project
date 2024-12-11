@@ -1,25 +1,26 @@
-#pragma once
+// Include Guard
+#pragma once 
 
-#include <iostream>
-#include <string>
+#include <iostream> // Include the iostream library
+#include <string> // Include the string library
 
-using namespace std;
+using namespace std; // Use the standard namespace
 
-class OnlineCourse {
-protected:
-    string courseName, instructor, level, prerequisites;
-    int totalCapacity, enrolledStudents, duration;
-    double price, discountRate, totalRating;
-    int ratingCount;
+class OnlineCourse { // OnlineCourse class
+protected: // Protected members
+    string courseName, instructor, level, prerequisites; // Course name, instructor, level, and prerequisites
+    int totalCapacity, enrolledStudents, duration; // Total capacity, enrolled students, and duration
+    double price, discountRate, totalRating; // Price, discount rate, and total rating
+    int ratingCount; // Rating count
 
-public:
-    OnlineCourse(string courseName, string instructor, int totalCapacity, double price, string level, double discountRate, string prerequisites, int duration);
-    virtual void displayInfo() = 0;
-    virtual bool addStudent() = 0;
-    virtual bool checkCapacity() = 0;
-    double getPrice() const;
-    string getCourseName() const;
-    double getAverageRating() const;
-    void rateCourse(int rating);
-    virtual ~OnlineCourse() {}
+public: // Public members
+    OnlineCourse(string courseName, string instructor, int totalCapacity, double price, string level, double discountRate, string prerequisites, int duration); // Constructor
+    virtual void displayInfo() = 0; // Display the course information
+    virtual bool addStudent() = 0; // Add a student to the course
+    virtual bool checkCapacity() = 0; // Check if the course is full
+    double getPrice() const; // Get the price of the course
+    string getCourseName() const; // Get the course name
+    double getAverageRating() const; // Get the average rating of the course
+    void rateCourse(int rating); // Rate the course
+    virtual ~OnlineCourse() {} // Destructor
 };

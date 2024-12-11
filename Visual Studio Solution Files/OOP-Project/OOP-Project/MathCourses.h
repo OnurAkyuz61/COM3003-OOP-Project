@@ -1,16 +1,17 @@
-#pragma once
+// Include Guard
+#pragma once 
 
-#include "OnlineCourse.h"
+#include "OnlineCourse.h" // OnlineCourse
 
-using namespace std;
+using namespace std; // Use the standard namespace
 
-class MathCourses : public OnlineCourse {
-private:
-    string focusArea;
+class MathCourses : public OnlineCourse { // MathCourses class
+private: // Private members
+    string focusArea; // Focus area of the course
 
-public:
-    MathCourses(string courseName, string instructor, int totalCapacity, double price, string level, double discountRate, string prerequisites, int duration, string focusArea);
-    void displayInfo() override;
-    bool addStudent() override;
-    bool checkCapacity() override;
+public: // Public members
+    MathCourses(string courseName, string instructor, int totalCapacity, double price, string level, double discountRate, string prerequisites, int duration, string focusArea); // Constructor
+    void displayInfo() override; // Display the course information
+    bool addStudent() override; // Add a student to the course
+    bool checkCapacity() override; // Check if the course is full
 };
