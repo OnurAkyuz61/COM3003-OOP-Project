@@ -25,10 +25,23 @@ void Cart::checkout() {
         cout << "Your cart is empty. Nothing to checkout." << endl;
         return;
     }
-    cout << "Payment simulated. Thank you for your purchase!" << endl;
+
+    string cardNumber, expiryDate, cvv;
+
+    cout << "Please enter your payment details (simulated):" << endl;
+    cout << "Enter Card Number: ";
+    cin >> cardNumber;
+    cout << "Enter Expiry Date (MM/YY): ";
+    cin >> expiryDate;
+    cout << "Enter CVV: ";
+    cin >> cvv;
+
+    cout << "Payment successfully. Thank you for your purchase! (simulated)" << endl;
+
     for (OnlineCourse* course : cart) {
         purchasedCourses.push_back(course);
     }
+
     cart.clear();
 }
 

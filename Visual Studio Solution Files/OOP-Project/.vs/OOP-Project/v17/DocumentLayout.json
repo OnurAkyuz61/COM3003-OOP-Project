@@ -1,12 +1,37 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\akyon\\source\\repos\\OOP-Project\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0F21A86F-2DC7-463D-B938-168C9BC0840B}|OOP-Project\\OOP-Project.vcxproj|C:\\Users\\akyon\\source\\repos\\OOP-Project\\OOP-Project\\Cart.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0F21A86F-2DC7-463D-B938-168C9BC0840B}|OOP-Project\\OOP-Project.vcxproj|solutionrelative:OOP-Project\\Cart.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Cart.cpp",
+              "DocumentMoniker": "C:\\Users\\akyon\\source\\repos\\OOP-Project\\OOP-Project\\Cart.cpp",
+              "RelativeDocumentMoniker": "OOP-Project\\Cart.cpp",
+              "ToolTip": "C:\\Users\\akyon\\source\\repos\\OOP-Project\\OOP-Project\\Cart.cpp",
+              "RelativeToolTip": "OOP-Project\\Cart.cpp",
+              "ViewState": "AQIAABYAAAAAAAAAAAAswCgAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-11T12:45:23.075Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
