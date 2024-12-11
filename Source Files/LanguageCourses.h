@@ -1,21 +1,17 @@
-// include guard
-#ifndef LANGUAGECOURSES_H 
+#pragma once
 
-// header guard
-#define LANGUAGECOURSES_H
+#include "OnlineCourse.h"
 
-#include "OnlineCourse.h" // for OnlineCourse
+using namespace std;
 
-class LanguageCourses : public OnlineCourse { // class LanguageCourses
-private: // private members
-    string language; // string for language
-    bool nativeSpeaker; // boolean for native speaker
+class LanguageCourses : public OnlineCourse {
+private:
+    string language;
+    bool nativeSpeaker;
 
-public: // public members
-    LanguageCourses(string courseName, string instructor, int totalCapacity, double price, string level, double discountRate, string prerequisites, int duration, string language, bool nativeSpeaker); // constructor
-    void displayInfo() override; // function to display the info
-    bool addStudent() override; // function to add a student
-    bool checkCapacity() override; // function to check the capacity
+public:
+    LanguageCourses(string courseName, string instructor, int totalCapacity, double price, string level, double discountRate, string prerequisites, int duration, string language, bool nativeSpeaker);
+    void displayInfo() override;
+    bool addStudent() override;
+    bool checkCapacity() override;
 };
-
-#endif // LANGUAGECOURSES_H

@@ -1,22 +1,19 @@
-// include guard
-#ifndef CART_H 
+#pragma once
 
-// header guard
-#define CART_H
+#include <vector>
+#include "OnlineCourse.h"
 
-#include <vector> // for vector
-#include "OnlineCourse.h" // for OnlineCourse
+using namespace std;
 
-class Cart { // class Cart
-private: // private members
-    vector<OnlineCourse*> cart; // vector of OnlineCourse pointers
-    vector<OnlineCourse*> purchasedCourses; // vector of OnlineCourse pointers
+class Cart {
+private:
+    vector<OnlineCourse*> cart;
+    vector<OnlineCourse*> purchasedCourses;
 
-public: // public members
-    void addToCart(OnlineCourse* course); // function to add a course to the cart
-    void displayCart(); // function to display the cart
-    void checkout(); // function to checkout
-    void displayPurchasedCourses(); // function to display the purchased courses
+public:
+    void addToCart(OnlineCourse* course);
+    void displayCart();
+    void checkout();
+    void displayPurchasedCourses();
+    void rateCourse();
 };
-
-#endif // CART_H

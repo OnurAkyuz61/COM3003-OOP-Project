@@ -1,20 +1,16 @@
-// include guard
-#ifndef MATHCOURSES_H
+#pragma once
 
-// header guard
-#define MATHCOURSES_H
+#include "OnlineCourse.h"
 
-#include "OnlineCourse.h" // for OnlineCourse
+using namespace std;
 
-class MathCourses : public OnlineCourse { // class MathCourses
-private: // private members
-    string focusArea; // string for focus area
+class MathCourses : public OnlineCourse {
+private:
+    string focusArea;
 
-public: // public members
-    MathCourses(string courseName, string instructor, int totalCapacity, double price, string level, double discountRate, string prerequisites, int duration, string focusArea); // constructor
-    void displayInfo() override; // function to display the info
-    bool addStudent() override; // function to add a student
-    bool checkCapacity() override; // function to check the capacity
+public:
+    MathCourses(string courseName, string instructor, int totalCapacity, double price, string level, double discountRate, string prerequisites, int duration, string focusArea);
+    void displayInfo() override;
+    bool addStudent() override;
+    bool checkCapacity() override;
 };
-
-#endif // MATHCOURSES_H
